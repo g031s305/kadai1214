@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <a href = "logout">logout</a>
+    <h1><%= title %></h1>
+    <p>Hello <%= user.username %>, Welcome to <%= title %></p>
+    <input type="submit" value="新規登録" onclick="location.href='./users/create'"/>
+    <input type="submit" value="削除" onclick="location.href='./users/delete'"/>
+    <input type="submit" value="更新" onclick="location.href='./users/update'"/>
+  </body>
+</html>
